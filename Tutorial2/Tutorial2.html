@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Exercise 1</h1>
+    <table width="100%" border="collapse">
+      <tr style="background-color: #1c87c9; color: white">
+        <th>Student ID</th>
+        <th>Student Name</th>
+      </tr>
+      <tr>
+        <td>Shahzaib Shahzad</td>
+        <td>20019786</td>
+      </tr>
+      <tr>
+        <td>Shahzaib Shahzad</td>
+        <td>20019786</td>
+      </tr>
+      <tr>
+        <td>Shahzaib Shahzad</td>
+        <td>20019786</td>
+      </tr>
+      <tr>
+        <td>Shahzaib Shahzad</td>
+        <td>20019786</td>
+      </tr>
+    </table>
+
+    <h1>Exercise 2</h1>
+    <table width="100%" border="collapse">
+      <tr>
+        <th colspan="2">Month and Date</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>10.01.2020</td>
+      </tr>
+      <tr>
+        <td rowspan="2">February</td>
+        <td>10.02.2020</td>
+      </tr>
+      <tr>
+        <td>11.02.2020</td>
+      </tr>
+    </table>
+
+    <h1>Exercise 3</h1>
+    <form action="" method="post">
+      <label for="name">Name: </label>
+      <input type="text" name="name" placeholder="Enter your name" required />
+      <br /><br />
+
+      <label for="email">Email: </label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+      <br /><br />
+
+      <label for="address">Address: </label>
+      <textarea
+        name="address"
+        cols="30"
+        rows="10"
+        placeholder="KOI SYD"
+      ></textarea>
+      <br /><br />
+
+      <label for="postode">Postcode: </label>
+      <input type="text" name="postode" placeholder="####"/
+      pattern="[0-9][0-9][0-9][0-9]">
+      <br /><br />
+
+      <input type="submit" />
+    </form>
+
+    <h1>Exercise 4</h1>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Customer Info</legend>
+
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          size="50"
+          required
+        />
+
+        <br /><br />
+        <label for="telephone">Telephone: </label>
+        <input
+          type="tel"
+          name="postode"
+          placeholder="##########"
+          pattern="[0-9]{10}"
+        />
+        <br /><br />
+
+        <label for="email">Email address: </label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          size="50"
+          required
+        />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Books</legend>
+
+        <select id="cars" name="cars">
+          <option value="book1">Book 1</option>
+          <option value="book2">Book 2</option>
+          <option value="book3">Book 3</option>
+          <option value="book4">Book 4</option>
+        </select>
+
+        <label for="quantity">Quantity (Maximum 5): </label>
+        <input type="number" name="quantity" min="1" max="5" value="3" />
+        <br /><br />
+      </fieldset>
+      <input type="submit" />
+    </form>
+
+    <h1>Exercise 5</h1>
+    <div>
+      <video
+        src="Resources/KOI_Testimonial.mp4"
+        type="video/mp4"
+        width="35%"
+        controls
+        autoplay
+      ></video>
+      <video
+        src="Resources/Why study IT at KOI_ (Testimonial 2019).mp4"
+        type="video/mp4"
+        width="35%"
+        controls
+      ></video>
+      <audio
+        src="Resources/KOI Testimonial - Find Out What You Need (Higher Education).mp3"
+        controls
+      ></audio>
+    </div>
+  </body>
+</html>
